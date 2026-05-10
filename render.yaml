@@ -1,0 +1,23 @@
+services:
+  - type: web
+    name: madina-shop-api
+    runtime: node
+    plan: free
+    region: frankfurt
+    repo: https://github.com/Madinaask/madina-shop-api
+    branch: main
+    buildCommand: bun install
+    startCommand: bun start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: FRONTEND_URL
+        value: https://madina-shop.vercel.app
+      - key: JWT_EXPIRES_IN
+        value: 7d
+      - key: MONGO_URI
+        sync: false
+      - key: JWT_SECRET
+        sync: false
+      - key: ADMIN_EMAIL
+        sync: false
