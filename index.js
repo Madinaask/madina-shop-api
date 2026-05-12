@@ -75,7 +75,6 @@ app.use('/api/products', productsRouter)
 app.use('/api/orders', ordersRouter)
 app.use('/api/reviews', reviewsRouter)
 
-// Swagger UI's "Try it out" panel needs a looser CSP than helmet's default
 app.use('/api/docs', (req, res, next) => {
   res.setHeader(
     'Content-Security-Policy',
