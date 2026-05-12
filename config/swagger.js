@@ -5,10 +5,10 @@ const spec = swaggerJSDoc({
   definition: {
     openapi: '3.0.0',
     info: {
-      title: 'eCommerce API',
+      title: 'Plume API',
       version: '1.0.0',
       description:
-        'REST API для интернет-магазина. JWT-аутентификация, роли user/admin, корзина через заказы и список желаемого.',
+        'REST API интернет-магазина Plume. JWT-аутентификация, роли user/admin, товары, категории, заказы, отзывы и список желаемого.',
     },
     servers: [{ url: '/', description: 'Текущий хост' }],
     components: {

@@ -1,7 +1,7 @@
 {
   "name": "madina-shop-api",
   "version": "1.0.0",
-  "description": "Madina Shop — Express + Mongoose REST API for the final web-development project.",
+  "description": "Plume — Express + Mongoose REST API for the final web-development project.",
   "private": true,
   "type": "module",
   "scripts": {

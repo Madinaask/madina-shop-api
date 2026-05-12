@@ -35,7 +35,7 @@ docker compose up -d
 
 ```env
 PORT=3000
-MONGO_URI=mongodb://localhost:27017/madina-shop
+MONGO_URI=mongodb://localhost:27017/plume
 JWT_SECRET=some_secret_key
 JWT_EXPIRES_IN=7d
 ADMIN_EMAIL=admin@example.com
